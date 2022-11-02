@@ -1,0 +1,21 @@
+{
+  "name": "ux-playwright-testing",
+  "version": "1.0.0",
+  "description": "[Join link](https://discord.gg/HDfgdEkW)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mScule/ux-playwright-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mScule/ux-playwright-testing/issues"
+  },
+  "homepage": "https://github.com/mScule/ux-playwright-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
