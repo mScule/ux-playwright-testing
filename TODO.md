@@ -15,7 +15,7 @@ Test cases for finding 3rd season, 5th episodes name and date at
 [Kummeli](https://areena.yle.fi/1-3339547).
 - [ ] Done
 
-## NAME HERE
+## Vilhelm Niemi
 Test cases for providing email in wrong format at
 [Yle areena](https://areena.yle.fi/tv).
 - [ ] Done
