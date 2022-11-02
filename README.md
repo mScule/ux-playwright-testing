@@ -7,7 +7,7 @@
 Before using do `npm install` in terminal while being in the project folder.
 
 ## Playwright commands
-| Command                           | Decription                                                                                |
+| Command                           | Description                                                                               |
 |-----------------------------------|-------------------------------------------------------------------------------------------|
 | `npx playwright codegen [URL]`    | Opens up chromium browser, that tracks what you do and generates playwright test from it. |
 | `npx playwright test [TEST NAME]` | Runs test from tests folder.                                                              |
