@@ -1,6 +1,6 @@
 # UX Playwright testing | TODO
 
-## NAME HERE
+## Iina Laamo
 Testcases for checking 22:00 News time and name at
 [TV opas](https://areena.yle.fi/tv/opas).
 - [ ] Done
