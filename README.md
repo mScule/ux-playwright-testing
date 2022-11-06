@@ -13,4 +13,4 @@ Before using do `npm install` in terminal while being in the project folder.
 | `npx playwright test [TEST NAME]` | Runs test from tests folder.                                                              |
 
 ## Test results
-[See Test results](./Test results.md)
+[See Test results](./test-results.md)
