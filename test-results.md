@@ -1,6 +1,6 @@
-# UX Playwright testing | TODO
+# UX Playwright testing | Test results
 
-## Test results
+## Test result meanings
 
 ❔ Not tested yet.\
 ✔️ Test passes.\
@@ -45,9 +45,5 @@ Browser  | Result
 Chromium | ✔️
 Firefox  | ❌
 Safari   | ❌
-
-## Deadline
-
-Working test suite in Github project by **09.11.2022**
 
 [Back to README](./README.md)

@@ -12,5 +12,5 @@ Before using do `npm install` in terminal while being in the project folder.
 | `npx playwright codegen [URL]`    | Opens up chromium browser, that tracks what you do and generates playwright test from it. |
 | `npx playwright test [TEST NAME]` | Runs test from tests folder.                                                              |
 
-## TODO
-[See TODO](./TODO.md)
+## Test results
+[See Test results](./Test results.md)
