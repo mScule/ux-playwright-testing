@@ -7,7 +7,7 @@
 ❌ Test doesn't pass.
 
 ## Iina Laamo
-Testcases for checking 22:00 News time and name at
+Test cases for checking 22:00 News time and name at
 [TV opas](https://areena.yle.fi/tv/opas).
 
 Browser  | Result
@@ -17,7 +17,7 @@ Firefox  | ❌
 Safari   | ❌
 
 ## NAME HERE
-Testcases for channel logos and names at
+Test cases for channel logos and names at
 [TV opas](https://areena.yle.fi/tv/opas).
 
 Browser  | Result
