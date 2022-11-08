@@ -1,7 +1,11 @@
 import { test, expect } from '@playwright/test';
 
-test('Test clicking on channel logos and names', async ({ page }) => {
+test('Test clicking on channel logos and names', async ({ page, browserName }) => {
     await page.goto('https://areena.yle.fi/tv/opas');
+
+    if (browserName === "firefox" || browserName === "webkit")
+        await page.getByRole('button', { name: 'Vain välttämättömät' }).click();
+
     await page.getByRole('heading', { name: 'Yle TV1' }).getByRole('link', { name: 'Yle TV1' }).click();
     await expect(page).toHaveURL('https://areena.yle.fi/tv/ohjelmat/yle-tv1');
     await page.locator('header:has-text("Suositellut SuositellutUusimmatSuosituimmat")').getByRole('img').click();
