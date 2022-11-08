@@ -24,5 +24,4 @@ test('Test case for finding name and date of Kummeli, Season 3, Episode 5 ', asy
 	//Expecting episode title and date to be correct
 	await expect(episodeTitle).toHaveText('K3, J5: Kummeli');
 	await expect(date).toContainText('ti 10.1.2006');
-	
 });
