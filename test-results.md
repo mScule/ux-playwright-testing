@@ -23,8 +23,8 @@ Test cases for channel logos and names at
 Browser  | Result
 ---------|-------
 Chromium | ✔️
-Firefox  | ❌
-Safari   | ❌
+Firefox  | ✔️
+Safari   | ✔️
 
 ## Sylvester Salo
 Test cases for finding 3rd season, 5th episodes name and date at
