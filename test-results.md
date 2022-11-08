@@ -16,15 +16,15 @@ Chromium | ✔️
 Firefox  | ❌
 Safari   | ❌
 
-## NAME HERE
+## Jonathan Methuen
 Test cases for channel logos and names at
 [TV opas](https://areena.yle.fi/tv/opas).
 
 Browser  | Result
 ---------|-------
-Chromium | ❔
-Firefox  | ❔
-Safari   | ❔
+Chromium | ✔️
+Firefox  | ✔️
+Safari   | ✔️
 
 ## Sylvester Salo
 Test cases for finding 3rd season, 5th episodes name and date at
