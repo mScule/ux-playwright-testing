@@ -33,8 +33,8 @@ Test cases for finding 3rd season, 5th episodes name and date at
 Browser  | Result
 ---------|-------
 Chromium | ✔️
-Firefox  | ❌
-Safari   | ❌
+Firefox  | ✔️
+Safari   | ✔️
 
 ## Vilhelm Niemi
 Test cases for providing email in wrong format at
@@ -43,7 +43,7 @@ Test cases for providing email in wrong format at
 Browser  | Result
 ---------|-------
 Chromium | ✔️
-Firefox  | ❌
-Safari   | ❌
+Firefox  | ✔️
+Safari   | ✔️
 
 [Back to README](./README.md)

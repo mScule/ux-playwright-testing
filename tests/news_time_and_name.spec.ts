@@ -1,6 +1,6 @@
-const {test, expect} = require('@playwright/test');
+const { test, expect } = require('@playwright/test');
 
-test('News time and name test ', async ({ page }) => {
+test('News time and name test ', async ({ page, browserName }) => {
 
     // Go to the page Yle Areena
     await page.goto('https://areena.yle.fi/tv');
@@ -8,9 +8,12 @@ test('News time and name test ', async ({ page }) => {
     // Expect the URL to be https://areena.yle.fi/tv
     await expect(page).toHaveURL('https://areena.yle.fi/tv');
 
+    if (browserName === "firefox" || browserName === "webkit")
+        await page.getByRole('button', { name: 'Vain välttämättömät' }).click();
+
     // Click on the link TV-opas
     await page.locator('#menu-main > ul > li:nth-child(4) > a > span').click();
-    
+
     // Expect the URL to be https://areena.yle.fi/tv/opas
     await expect(page).toHaveURL('https://areena.yle.fi/tv/opas');
 

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test("email form validation", async ({ page }) => {
+test("email form validation", async ({ page, browserName }) => {
   const loginForm = () =>
     page.frameLocator(`role=dialog[name="kirjaudu sisään"] >> iframe`);
 
@@ -15,6 +15,10 @@ test("email form validation", async ({ page }) => {
 
   const goToYleRegisterationForm = async () => {
     await page.goto('https://areena.yle.fi/tv');
+
+    if (browserName === "firefox" || browserName === "webkit")
+      await page.getByRole('button', { name: 'Vain välttämättömät' }).click();
+
     await page.getByRole('button', { name: 'Kirjaudu' }).click();
     await registerationButton().click();
   };

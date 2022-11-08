@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
-test('Test case for finding name and date of Kummeli, Season 3, Episode 5 ', async ({ page }) => {
+test('Test case for finding name and date of Kummeli, Season 3, Episode 5 ', async ({ page, browserName }) => {
   
   await page.goto('https://areena.yle.fi/1-3339547');
+
+  if (browserName === "firefox" || browserName === "webkit")
+  	await page.getByRole('button', { name: 'Vain välttämättömät' }).click();
   
   //Buttons for navigating to episode 5 of season 3
   const seasonButton = page.locator('xpath=//*[@id="panel:R57h6:0"]/div/section[1]/div/div/div/div[1]/div/div/div/div[2]/ol/li[3]/button');
