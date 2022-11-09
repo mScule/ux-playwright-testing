@@ -13,8 +13,8 @@ Test cases for checking 22:00 News time and name at
 Browser  | Result
 ---------|-------
 Chromium | ✔️
-Firefox  | ❌
-Safari   | ❌
+Firefox  | ✔️
+Safari   | ✔️
 
 ## Jonathan Methuen
 Test cases for channel logos and names at
@@ -23,8 +23,8 @@ Test cases for channel logos and names at
 Browser  | Result
 ---------|-------
 Chromium | ✔️
-Firefox  | ❌
-Safari   | ❌
+Firefox  | ✔️
+Safari   | ✔️
 
 ## Sylvester Salo
 Test cases for finding 3rd season, 5th episodes name and date at
