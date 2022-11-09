@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Test clicking on channel logos and names', async ({ page, browserName }) => {
     await page.goto('https://areena.yle.fi/tv/opas');
-   
+
     if (browserName === "firefox" || browserName === "webkit")
         await page.getByRole('button', { name: 'Vain välttämättömät' }).click();
 

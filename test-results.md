@@ -24,7 +24,7 @@ Browser  | Result
 ---------|-------
 Chromium | ✔️
 Firefox  | ✔️
-Safari   | ✔️
+Safari   | ❌
 
 ## Sylvester Salo
 Test cases for finding 3rd season, 5th episodes name and date at
