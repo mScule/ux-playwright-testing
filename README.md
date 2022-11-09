@@ -1,8 +1,5 @@
 # UX Playwright testing
 
-## Join Discord server
-[Join here](https://discord.gg/HDfgdEkW)
-
 ## Installation
 Before using do `npm install` in terminal while being in the project folder.
 
